@@ -1,0 +1,10 @@
+footer{
+    margin-top: 15.4%;
+    background-color:#314F4A;
+  
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  
+}

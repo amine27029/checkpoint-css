@@ -1,0 +1,27 @@
+
+.navbar {
+    display: flex;
+    background-color:#20A48E ;
+    position: sticky;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+ 
+}
+.navbar > a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar > a:hover {
+   background-color: #31554F;
+   color: white;
+   text-decoration: none;
+  font-size: large;
+}
+@media screen and (max-width: 700px) {
+   .navbar {
+flex-direction: column;
+
+    }
+}
